@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char nama[30];
+    int usia;
+    cout <<"masukan nama :";
+    cin >>nama;
+    cout <<"masukan usia anda : ";
+    
+    if(usia>17)
+    {
+         cout <<"selamat"<<nama<<"anda di terima di paramadina";
+    }
+    
+    else if (usia<17)
+    { cout <<"anda tidak di terima di paramadina";
+    }
+    return 0;
+}
